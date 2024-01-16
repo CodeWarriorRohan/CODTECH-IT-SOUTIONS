@@ -2,14 +2,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class GUI_Calculator extends JFrame implements ActionListener
+public class Task2_GUI_Calculator extends JFrame implements ActionListener
 {
     JFrame f = new JFrame("GUI Calculator");
     JTextField tf = new JTextField();
     static double a = 0,b = 0,result = 0;
     static int operator = 0;
     JButton b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24;
-    GUI_Calculator()
+    Task2_GUI_Calculator()
     {
         tf.setBounds(10,10,515,120);
         tf.setForeground(Color.BLACK);
@@ -347,7 +347,7 @@ public class GUI_Calculator extends JFrame implements ActionListener
 
     public static void main(String[] args)
     {
-        new GUI_Calculator();
+        new Task2_GUI_Calculator();
     }
 }
 
