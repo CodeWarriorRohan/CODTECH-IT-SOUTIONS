@@ -16,13 +16,13 @@ public class ConnectionProvider
 //            String url = "jdbc:mysql://localhost:3306/testjdbc";
 //            String url = "jdbc:mysql://localhost:3306/Photos";
 //            String username = "root";
-//            String password = "rna@2004";
+//            String password = "********";
             if(conn == null)
             {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-//                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testjdbc","root","rna@2004");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_grade_management_system","root","rna@2004");
-//                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Photos","root","rna@2004");
+//                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testjdbc","root","********");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_grade_management_system","root","********");
+//                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Photos","root","********");
 
             }
             System.out.println("Database Connected..!");
